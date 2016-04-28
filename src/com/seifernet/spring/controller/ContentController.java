@@ -14,7 +14,7 @@ public class ContentController {
 		
 		model.addAttribute( "content" ,  new Date( ) );
 		
-		return "index";
+		return "system.index";
 	}
 	
 }
