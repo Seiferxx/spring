@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan( { "com.seifernet.spring" } )
 public class HibernateConfiguration {
 	
-	private final String MODEL_PACKAGE 	= "com.seifernet.spring.persistence.model";
+	private final String MODEL_PACKAGE 	= "com.seifernet.spring.model.dto";
 	private final String DATASOURCE 	= "java:jboss/datasources/spring";
 	private final String DB_DIALECT 	= "org.hibernate.dialect.PostgreSQLDialect";
 	
